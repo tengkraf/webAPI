@@ -1,0 +1,135 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{3A4883A1-B543-4AD0-8EC4-A58E1EE3F197}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framework", "Framework\Framework.csproj", "{64BBE1CE-4998-426D-9522-D0F32CC2C7CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{40293C65-30E3-43C2-827A-08CADC9299EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{54C3A7CD-8B0F-470B-A9E2-641383781CB8}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DatabaseScripts", "DatabaseScripts\DatabaseScripts.sqlproj", "{CA5ADEAA-9DE9-48F5-80E5-6610D957E1D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "DTO\DTO.csproj", "{B0C24F54-5B76-44BA-B91A-070F42018276}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{2D1BE518-7177-46CC-B431-91B4391314C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{B1722EDA-3096-410B-A3ED-10D398531B43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{4601A543-DEC6-4299-AD89-5C12B09EAEC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{FA924116-13E9-407B-B924-67B64E6003E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EndToEndTests", "EndToEndTests\EndToEndTests.csproj", "{63D98AB9-2C6F-456D-B171-DBA2683AE7A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiClients", "ApiClients\ApiClients.csproj", "{B7969D52-08A0-4960-9C36-74C67ACD2CF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{02111FD7-2B85-4D9D-90C1-C65DEB22436F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A4883A1-B543-4AD0-8EC4-A58E1EE3F197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4883A1-B543-4AD0-8EC4-A58E1EE3F197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4883A1-B543-4AD0-8EC4-A58E1EE3F197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4883A1-B543-4AD0-8EC4-A58E1EE3F197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64BBE1CE-4998-426D-9522-D0F32CC2C7CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64BBE1CE-4998-426D-9522-D0F32CC2C7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64BBE1CE-4998-426D-9522-D0F32CC2C7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64BBE1CE-4998-426D-9522-D0F32CC2C7CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40293C65-30E3-43C2-827A-08CADC9299EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40293C65-30E3-43C2-827A-08CADC9299EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40293C65-30E3-43C2-827A-08CADC9299EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40293C65-30E3-43C2-827A-08CADC9299EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C3A7CD-8B0F-470B-A9E2-641383781CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C3A7CD-8B0F-470B-A9E2-641383781CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C3A7CD-8B0F-470B-A9E2-641383781CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C3A7CD-8B0F-470B-A9E2-641383781CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5ADEAA-9DE9-48F5-80E5-6610D957E1D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5ADEAA-9DE9-48F5-80E5-6610D957E1D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5ADEAA-9DE9-48F5-80E5-6610D957E1D3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CA5ADEAA-9DE9-48F5-80E5-6610D957E1D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5ADEAA-9DE9-48F5-80E5-6610D957E1D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5ADEAA-9DE9-48F5-80E5-6610D957E1D3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B0C24F54-5B76-44BA-B91A-070F42018276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C24F54-5B76-44BA-B91A-070F42018276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C24F54-5B76-44BA-B91A-070F42018276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C24F54-5B76-44BA-B91A-070F42018276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D1BE518-7177-46CC-B431-91B4391314C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D1BE518-7177-46CC-B431-91B4391314C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D1BE518-7177-46CC-B431-91B4391314C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D1BE518-7177-46CC-B431-91B4391314C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA924116-13E9-407B-B924-67B64E6003E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA924116-13E9-407B-B924-67B64E6003E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA924116-13E9-407B-B924-67B64E6003E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA924116-13E9-407B-B924-67B64E6003E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D98AB9-2C6F-456D-B171-DBA2683AE7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D98AB9-2C6F-456D-B171-DBA2683AE7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D98AB9-2C6F-456D-B171-DBA2683AE7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D98AB9-2C6F-456D-B171-DBA2683AE7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7969D52-08A0-4960-9C36-74C67ACD2CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7969D52-08A0-4960-9C36-74C67ACD2CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7969D52-08A0-4960-9C36-74C67ACD2CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7969D52-08A0-4960-9C36-74C67ACD2CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54C3A7CD-8B0F-470B-A9E2-641383781CB8} = {4601A543-DEC6-4299-AD89-5C12B09EAEC2}
+		{CA5ADEAA-9DE9-48F5-80E5-6610D957E1D3} = {4601A543-DEC6-4299-AD89-5C12B09EAEC2}
+		{2D1BE518-7177-46CC-B431-91B4391314C7} = {B1722EDA-3096-410B-A3ED-10D398531B43}
+		{FA924116-13E9-407B-B924-67B64E6003E1} = {B1722EDA-3096-410B-A3ED-10D398531B43}
+		{63D98AB9-2C6F-456D-B171-DBA2683AE7A7} = {B1722EDA-3096-410B-A3ED-10D398531B43}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DD78121-2729-4D03-879F-759CABBE1781}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://lnidaptumtfs:8080/tfs/appdev
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Framework\\Framework.csproj
+		SccProjectName1 = Framework
+		SccLocalPath1 = Framework
+		SccProjectUniqueName2 = Business\\Business.csproj
+		SccProjectName2 = Business
+		SccLocalPath2 = Business
+		SccProjectUniqueName3 = DataAccess\\DataAccess.csproj
+		SccProjectTopLevelParentUniqueName3 = WebApiExample.sln
+		SccProjectName3 = DataAccess
+		SccLocalPath3 = DataAccess
+		SccProjectUniqueName4 = DatabaseScripts\\DatabaseScripts.sqlproj
+		SccProjectTopLevelParentUniqueName4 = WebApiExample.sln
+		SccProjectName4 = DatabaseScripts
+		SccLocalPath4 = DatabaseScripts
+		SccProjectUniqueName5 = DTO\\DTO.csproj
+		SccProjectName5 = DTO
+		SccLocalPath5 = DTO
+		SccProjectUniqueName6 = UnitTests\\UnitTests.csproj
+		SccProjectTopLevelParentUniqueName6 = WebApiExample.sln
+		SccProjectName6 = UnitTests
+		SccLocalPath6 = UnitTests
+		SccProjectUniqueName7 = IntegrationTests\\IntegrationTests.csproj
+		SccProjectTopLevelParentUniqueName7 = WebApiExample.sln
+		SccProjectName7 = IntegrationTests
+		SccLocalPath7 = IntegrationTests
+		SccProjectUniqueName8 = EndToEndTests\\EndToEndTests.csproj
+		SccProjectTopLevelParentUniqueName8 = WebApiExample.sln
+		SccProjectName8 = EndToEndTests
+		SccLocalPath8 = EndToEndTests
+		SccProjectUniqueName9 = ApiClients\\ApiClients.csproj
+		SccProjectName9 = ApiClients
+		SccLocalPath9 = ApiClients
+		SccProjectUniqueName10 = API\\API.csproj
+		SccProjectName10 = API
+		SccLocalPath10 = API
+	EndGlobalSection
+EndGlobal

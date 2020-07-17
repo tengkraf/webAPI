@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApiExample</name>
+    </assembly>
+    <members>
+        <member name="T:WebApiExample.Controllers.V1.ValuesController">
+            <summary>
+            The 1st version of the Values controller
+            </summary>
+        </member>
+        <member name="M:WebApiExample.Controllers.V1.ValuesController.Get">
+            <summary>
+            Gets Stuff
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WebApiExample.Controllers.V2.ValuesController">
+            <summary>
+            The 2nd version of the Values controller, better, faster, stronger!
+            </summary>
+        </member>
+        <member name="M:WebApiExample.Controllers.V2.ValuesController.Get">
+            <summary>
+            Gets Stuff
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
